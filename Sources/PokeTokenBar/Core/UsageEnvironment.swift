@@ -21,6 +21,8 @@ enum UsageEnvironment {
         "HERMES_HOME",         // Hermes 홈
         "COPILOT_HOME",        // Copilot CLI 홈
         "GROK_HOME",           // Grok CLI 홈
+        "PI_CODING_AGENT_DIR",    // pi config/session base directory
+        "PI_CODING_AGENT_SESSION_DIR", // pi session directory override
     ]
 
     /// `name` 의 값. 프로세스 환경이 우선이고, 없으면 로그인 셸에서 읽은 값을 쓴다.
